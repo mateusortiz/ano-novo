@@ -3,71 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>&lt;ano-novo&gt;</title>
+
 	<!-- Polymer -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20130816/polymer.min.js"></script>
+ 	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20130816/polymer.min.js"></script>
+
 	<!-- Font -->
-	<link href='http://fonts.googleapis.com/css?family=Concert+One' rel='stylesheet' type='text/css'>
-	<!-- Importing -->
-	<link rel="import" href="/src/ano-novo.html">
-	<style>
-		.credits p {
-			text-align: center;
-			color: #2c3e50;
-			font-size: 1.1em;
-		}
+	<link href='http://fonts.googleapis.com/css?family=Bubbler+One' rel='stylesheet' type='text/css'>
 
-		.credits a {
-			text-decoration: none;
-			color: #5dcaf3;
-		}
+	<!-- Importing my element -->
+	<link rel="import" href="src/ano-novo.html">
 
-		.credits a:hover {
-			text-shadow: 2px 2px 10px #bdc3c7;
-		}
-
-		.credits .heart {
-			display: inline-block;
-			position: relative;
-			top: .2em;
-			font-size: 2.4em;
-			color: #e74c3c;
-			-webkit-transform: scale(.9);
-			-moz-transform: scale(.9);
-			transform: scale(.9);
-			-webkit-animation: love .5s infinite linear alternate-reverse;
-			-moz-animation: love .5s infinite linear alternate-reverse;
-			animation: love .5s infinite linear alternate-reverse;
-		}
-
-		@-webkit-keyframes love {
-		  to {-webkit-transform: scale(1.3);}
-		}
-		@-moz-keyframes love {
-		  to {-moz-transform: scale(1.3);}
-		}
-		@keyframes love {
-		  to {transform: scale(1.3);}
-		}
-	</style>
+	<!-- Importing my style -->
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
 	<a href="https://github.com/mateusortiz/ano-novo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
 	<!-- Using -->
-	<ano-novo turn="on"></ano-novo>
+	<ano-novo></ano-novo>
 
-	<audio id="audio" src="http://www.freesound.org/data/previews/175/175626_462105-lq.mp3" autoplay="true" loop="true"></audio>
-
-	<footer class="credits">
-		<p>
-				Developed with
-			<span class="heart">♥</span>
-				By
-			<a href="https://twitter.com/mteusortiz">Mateus Ortiz</a>
-				and
-			<a href="https://twitter.com/osuissa">Jean Carlo</a>
-		</p>
-	</footer>
+	<!-- audio -->
+	<audio id="happy-audio" loop>
+		<source src="assets/audio/happy-new-year.mp3" type="audio/mp3"></source>
+		<source src="assets/audio/happy-new-year.ogg" type="audio/ogg"></source>
+	</audio>
 </body>
 </html>
