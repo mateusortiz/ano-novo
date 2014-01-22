@@ -10,6 +10,7 @@ Web Components Experiment using Ambient Light API.
 ## Dependency
 
 * [Polymer](http://www.polymer-project.org/)
+* [Grunt](http://gruntjs.com/)
 
 ## Browser Compatibility
 

@@ -1,9 +1,8 @@
 body {
-	background-color: #222;
-	background-image: -moz-radial-gradient(circle, #333, #222, #111);
+	background-color: #111;
+	background-image: -moz-radial-gradient(circle, #333, #111);
 	background-attachment: fixed;
 	overflow: hidden;
-
 	font-family: 'Bubbler One', sans-serif;
 	font-size: 8em;
 	color: #FFF;
