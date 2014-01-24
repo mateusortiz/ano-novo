@@ -1,11 +1,11 @@
-# &lt;ano-novo&gt;
+# &lt;new-year&gt;
 
 Web Components Experiment using Ambient Light API.
 > Maintained by [Mateus Ortiz](https://github.com/mateusortiz).
 
 ## Demo
 
-> [Check it live](http://mateusortiz.github.io/ano-novo/index.html).
+> [Check it live](http://mateusortiz.github.io/new-year).
 
 ## Dependency
 
@@ -28,13 +28,13 @@ Web Components Experiment using Ambient Light API.
 2. Import Custom Element:
 
 	```xml
-	<link rel="import" href="src/ano-novo.html">
+	<link rel="import" href="src/new-year.html">
 	```
 
 3. Start using it!
 
 	```xml
-	<ano-novo></ano-novo>
+	<new-year></new-year>
 
 ## Contributing
 

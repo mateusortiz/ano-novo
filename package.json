@@ -1,10 +1,10 @@
 {
-  "name": "ano-novo",
+  "name": "new-year",
   "version": "1.0.0",
   "description": "Web Components using Ambient Light API",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mateusortiz/ano-novo.git"
+    "url": "git://github.com/mateusortiz/new-year.git"
   },
   "keywords": [
     "<2014>",
@@ -22,9 +22,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mateusortiz/ano-novo/issues"
+    "url": "https://github.com/mateusortiz/new-year/issues"
   },
-  "homepage": "mateusortiz.github.io/ano-novo",
+  "homepage": "mateusortiz.github.io/new-year",
   "devDependencies": {
     "grunt": "~0.4.2",
     "grunt-contrib-connect": "~0.6.0"
