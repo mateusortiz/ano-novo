@@ -78,7 +78,7 @@
         created: function() {
         	var that = this;
 
-        	window.addEventListener('devicelight', function (event){
+        	window.addEventListener('devicelight', function(event) {
         		if (event.value <= 10) {
         			that.$.container.classList.add('on');
         			document.getElementById('happy-audio').play();

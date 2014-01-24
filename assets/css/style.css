@@ -3,6 +3,7 @@ body {
 	background-image: -moz-radial-gradient(circle, #333, #111);
 	background-attachment: fixed;
 	overflow: hidden;
+
 	font-family: 'Bubbler One', sans-serif;
 	font-size: 8em;
 	color: #FFF;
